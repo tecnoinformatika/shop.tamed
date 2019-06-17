@@ -1,0 +1,67 @@
+.hidden {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.jcsmw-swatches {
+	overflow: hidden;
+	padding: 5px;
+}
+
+.jcsmw-swatches .swatch {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	display: inline-block;
+	font-size: 22px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 15px;
+	cursor: pointer;
+	position: relative;
+}
+
+.jcsmw-swatches .swatch.selected {
+	-webkit-box-shadow: 0 0 5px;
+	-moz-box-shadow: 0 0 5px;
+	box-shadow: 0 0 5px;
+	border-color: #999;
+	opacity: 1;
+}
+
+.jcsmw-swatches .swatch.disabled {
+	opacity: 0.1;
+}
+
+.jcsmw-swatches .swatch-color {
+
+}
+
+.jcsmw-swatches .swatch-color.selected {
+	border-color: transparent;
+}
+
+.jcsmw-swatches .swatch-color.selected:before {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+	content: "";
+	width: 6px;
+	height: 10px;
+	display: block;
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+	position: absolute;
+	top: 8px;
+	left: 11px;
+}
+
+.jcsmw-swatches .swatch-label {
+	background-color: #f1f1f1;
+}
+
+.jcsmw-swatches .swatch-image {
+	overflow: hidden;
+}

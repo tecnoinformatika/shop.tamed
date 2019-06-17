@@ -1,0 +1,148 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-27 11:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: swatches-manager-for-woocommerce.php:161
+msgid ""
+"Soo Product Attribute Swatches is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#. Name of the plugin
+#: includes/class-admin.php:80 includes/class-admin.php:80
+msgid "WooCommerce Swatches Manager"
+msgstr ""
+
+#: includes/class-admin.php:101
+msgid "Welcome to WooCommerce Swatches Manager"
+msgstr ""
+
+#: includes/class-admin.php:106
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-admin.php:107
+msgid "Advance Options"
+msgstr ""
+
+#: includes/class-admin.php:108
+msgid "How To Use"
+msgstr ""
+
+#: includes/class-admin.php:113
+msgid "hellowr"
+msgstr ""
+
+#: includes/class-admin.php:138
+msgid "Choose an image"
+msgstr ""
+
+#: includes/class-admin.php:139
+msgid "Use image"
+msgstr ""
+
+#: includes/class-admin.php:218 includes/class-admin.php:387
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/class-admin.php:219 includes/class-admin.php:388
+msgid "Remove image"
+msgstr ""
+
+#: includes/class-admin.php:264
+msgid "Select terms"
+msgstr ""
+
+#: includes/class-admin.php:275
+msgid "Select all"
+msgstr ""
+
+#: includes/class-admin.php:276
+msgid "Select none"
+msgstr ""
+
+#: includes/class-admin.php:277
+msgid "Add new"
+msgstr ""
+
+#: includes/class-admin.php:341
+msgid "Add new term"
+msgstr ""
+
+#: includes/class-admin.php:345
+msgid "Name"
+msgstr ""
+
+#: includes/class-admin.php:351
+msgid "Slug"
+msgstr ""
+
+#: includes/class-admin.php:363
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-admin.php:364
+msgid "Add New"
+msgstr ""
+
+#: includes/class-admin.php:374
+msgid "Color"
+msgstr ""
+
+#: includes/class-admin.php:381
+msgid "Image"
+msgstr ""
+
+#: includes/class-admin.php:396
+msgid "Label"
+msgstr ""
+
+#: includes/class-admin.php:423
+msgid "Wrong request"
+msgstr ""
+
+#: includes/class-admin.php:427
+msgid "Not enough data"
+msgstr ""
+
+#: includes/class-admin.php:431
+msgid "Taxonomy is not exists"
+msgstr ""
+
+#: includes/class-admin.php:435
+msgid "This term is exists"
+msgstr ""
+
+#: includes/class-admin.php:449
+msgid "Added successfully"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"An WooCommerce Add-on to influence variable items to be more delightful and "
+"customer friendly."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://jcodex.com/plugins"
+msgstr ""
+
+#. Author of the plugin
+msgid "JCodex"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://jcodex.com/"
+msgstr ""

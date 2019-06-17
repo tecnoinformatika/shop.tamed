@@ -1,0 +1,474 @@
+# Copyright (C) 2019 WPC Smart Compare for WooCommerce
+# This file is distributed under the same license as the WPC Smart Compare for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC Smart Compare for WooCommerce\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: woo-smart-compare-premium/index.php:48
+msgid "Image"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:49
+msgid "SKU"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:50
+msgid "Rating"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:51
+msgid "Price"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:52
+msgid "Stock"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:53
+msgid "Availability"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:54
+msgid "Add to cart"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:55
+msgid "Description"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:56
+msgid "Content"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:57
+msgid "Weight"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:58
+msgid "Dimensions"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:59
+msgid "Color"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:60, woo-smart-compare-premium/index.php:469
+msgid "Attributes"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:61, woo-smart-compare-premium/index.php:494
+msgid "Custom fields"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:186, woo-smart-compare-premium/index.php:427
+msgid "You can add a maximum of {limit} products to the compare table."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:195
+msgid "Do you want to remove all products from the compare?"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:225, woo-smart-compare-premium/index.php:288
+msgid "Settings"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:239
+msgid "Premium support"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:249, woo-smart-compare-premium/index.php:249
+msgid "Smart Compare"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:271
+msgid "WPC Smart Compare"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:274
+msgid "Thank you for using our plugin! If you are satisfied, please reward it a full five-star %s rating."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:277
+msgid "Reviews"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:279
+msgid "Changelog"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:281
+msgid "Discussion"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:291
+msgid "Premium Support"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:302
+msgid "General"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:306
+msgid "Open button"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:310
+msgid "button class or id"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:312
+msgid "The class or id of the button, when clicking on this button the compare bar & compare table will show up. Example %s or %s"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:317
+msgid "Open compare bar immediately"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:323
+msgid "Check it if you want to open the compare bar immediately on page loaded."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:328
+msgid "Open compare table immediately"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:334
+msgid "Check it if you want to open the compare table immediately when click to compare button. If not, it just add product to the compare bar."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:339
+msgid "Hide on Cart & Checkout page"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:344, woo-smart-compare-premium/index.php:362, woo-smart-compare-premium/index.php:380, woo-smart-compare-premium/index.php:398, woo-smart-compare-premium/index.php:530, woo-smart-compare-premium/index.php:547, woo-smart-compare-premium/index.php:720, woo-smart-compare-premium/index.php:748, woo-smart-compare-premium/index.php:833
+msgid "Yes"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:348, woo-smart-compare-premium/index.php:366, woo-smart-compare-premium/index.php:384, woo-smart-compare-premium/index.php:402, woo-smart-compare-premium/index.php:534, woo-smart-compare-premium/index.php:551, woo-smart-compare-premium/index.php:724, woo-smart-compare-premium/index.php:752, woo-smart-compare-premium/index.php:837
+msgid "No"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:352
+msgid "Hide the compare on the Cart & Checkout page?"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:357
+msgid "Remove when clicking again"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:370
+msgid "Do you want to remove product when clicking again?"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:375
+msgid "Close button"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:388
+msgid "Enable the close button at top-right conner of compare table?"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:393
+msgid "Hide if empty"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:406
+msgid "Hide the compare table and compare bar if haven't any product."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:411
+msgid "Limit"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:416
+msgid "The maximum of products can be added to the compare table."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:421
+msgid "Limit notice"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:429
+msgid "The notice when reaching the limit. Use {limit} to show the number. Leave blank if you want to use the default text and can be translated."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:435, woo-smart-compare-premium/index.php:586, woo-smart-compare-premium/index.php:777, woo-smart-compare-premium/index.php:1148, woo-smart-compare-premium/index.php:1211, woo-smart-compare-premium/index.php:1239
+msgid "Compare"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:442
+msgid "Fields"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:464
+msgid "Please choose the fields you want to show on the compare table. You also can drag/drop to rearrange these fields."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:489
+msgid "Please choose the attributes you want to show on the compare table. You also can drag/drop to rearrange these attributes."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:499
+msgid "Add custom field names, split by a comma."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:504
+msgid "Image size"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:525
+msgid "Freeze first column"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:537
+msgid "Freeze the first column (fields and attributes title) when scrolling horizontally."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:542
+msgid "Freeze first row"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:554
+msgid "Freeze the first row (product name) when scrolling vertically."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:560, woo-smart-compare-premium/index.php:572
+msgid "Button"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:563
+msgid "Settings for the compare button in each product."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:567
+msgid "Type"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:576
+msgid "Link"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:582
+msgid "Text"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:588, woo-smart-compare-premium/index.php:779
+msgid "Leave blank if you want to use the default text and can be translated."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:593
+msgid "Extra class (optional)"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:598
+msgid "Add extra class for action button/link, split by one space."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:603
+msgid "Show on products list"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:608, woo-smart-compare-premium/index.php:639
+msgid "After title"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:612
+msgid "After rating"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:616
+msgid "After price"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:620, woo-smart-compare-premium/index.php:651
+msgid "Before add to cart"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:624, woo-smart-compare-premium/index.php:655
+msgid "After add to cart"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:628, woo-smart-compare-premium/index.php:667
+msgid "None"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:634
+msgid "Show on single product page"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:643
+msgid "After price & rating"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:647
+msgid "After excerpt"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:659
+msgid "After meta"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:663
+msgid "After sharing"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:673
+msgid "Manual compare button"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:677
+msgid "You can add the compare button by manually, please use the shortcode %s, eg. %s for the product with ID is 99."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:683
+msgid "Categories"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:696
+msgid "All categories"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:702
+msgid "Only show the Compare button for products in selected categories."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:708
+msgid "Bar"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:711
+msgid "Settings for the compare bar."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:715
+msgid "Add more button"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:728
+msgid "Add the button to search product and add to compare list immediately."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:733
+msgid "Add more count"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:738
+msgid "The result count of search function when clicking on \"Add more\" button."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:743
+msgid "Remove all button"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:756
+msgid "Add the button to remove all products from compare immediately."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:761
+msgid "Bar background color"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:768
+msgid "Choose the background color for the compare bar, default %s"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:773
+msgid "Bar button text"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:784
+msgid "Bar button color"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:793
+msgid "Choose the color for the button on compare bar, default %s"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:798
+msgid "Bar position"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:803
+msgid "Bottom"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:807
+msgid "Top"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:813
+msgid "Bar align"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:818
+msgid "Right"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:822
+msgid "Left"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:828
+msgid "Click outside to hide"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:844
+msgid "Menu"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:847
+msgid "Settings for the Compare menu item."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:851
+msgid "Menu(s)"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:866
+msgid "Choose the menu(s) you want to add the \"compare menu\" at the end."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:873
+msgid "Update Options"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:953
+msgid "In stock"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:953
+msgid "Out of stock"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:1061
+msgid "No products in the compare table."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:1107
+msgid "No results found for \"%s\""
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:1176
+msgid "Type any keyword to search..."
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:1189
+msgid "Close"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:1196
+msgid "Add product"
+msgstr ""
+
+#: woo-smart-compare-premium/index.php:1201
+msgid "Remove all"
+msgstr ""
