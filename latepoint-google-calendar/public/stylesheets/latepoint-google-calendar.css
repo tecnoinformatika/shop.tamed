@@ -1,0 +1,88 @@
+.channel-watch-status {
+  padding: 10px;
+  display: flex;
+  border-radius: 4px;
+  margin: 20px 0px; }
+  .channel-watch-status:first-child {
+    margin-top: 0px; }
+  .channel-watch-status.watch-status-on {
+    background-color: #b9ffd9;
+    border: 1px solid #5ed693;
+    box-shadow: 0px 1px 2px rgba(23, 179, 100, 0.23); }
+    .channel-watch-status.watch-status-on .status-watch-label {
+      color: #056b34; }
+  .channel-watch-status.watch-status-off {
+    background-color: #fff0b9;
+    border: 1px solid #dac425;
+    box-shadow: 0px 1px 2px rgba(179, 138, 23, 0.23); }
+    .channel-watch-status.watch-status-off .status-watch-label {
+      color: #a07305; }
+  .channel-watch-status .latepoint-link.cw-enable {
+    border-bottom-color: #2d54de;
+    color: #2d54de; }
+  .channel-watch-status .status-watch-label {
+    font-size: 16px;
+    color: #056b34; }
+    .channel-watch-status .status-watch-label .latepoint-icon {
+      font-size: 18px;
+      margin-right: 12px; }
+  .channel-watch-status .latepoint-icon {
+    margin-right: 5px; }
+  .channel-watch-status span, .channel-watch-status i {
+    display: inline-block;
+    vertical-align: middle; }
+  .channel-watch-status a.latepoint-link {
+    padding: 2px 0px;
+    line-height: 1.1;
+    border-bottom: 1px solid #1d5642;
+    text-decoration: none;
+    color: #1d5642;
+    display: inline-block;
+    margin-left: 15px; }
+  .channel-watch-status .latepoint-link.cw-danger {
+    color: #981414;
+    border-bottom-color: #981414; }
+  .channel-watch-status .cw-expires {
+    margin-left: auto;
+    color: #238e68;
+    line-height: 1.1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background-color: #9cf9c7; }
+
+.calendar-daily-agent-w .calendar-hours .ch-day-booking.gcal-calendar-event,
+.calendar-week-agent-w .calendar-hours .ch-day-booking.gcal-calendar-event {
+  background-color: #fff !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), inset 0px 0px 0px 1px #2d54de;
+  background-image: linear-gradient(135deg, #ffffff 25%, #f8f8fb 25%, #f8f8fb 50%, #ffffff 50%, #ffffff 75%, #f8f8fb 75%, #f8f8fb 100%);
+  background-size: 100px 100px; }
+  .calendar-daily-agent-w .calendar-hours .ch-day-booking.gcal-calendar-event .booking-time,
+  .calendar-week-agent-w .calendar-hours .ch-day-booking.gcal-calendar-event .booking-time {
+    color: #8894AF; }
+  .calendar-daily-agent-w .calendar-hours .ch-day-booking.gcal-calendar-event .booking-service-name,
+  .calendar-week-agent-w .calendar-hours .ch-day-booking.gcal-calendar-event .booking-service-name {
+    color: #2d54de; }
+    .calendar-daily-agent-w .calendar-hours .ch-day-booking.gcal-calendar-event .booking-service-name img, .calendar-daily-agent-w .calendar-hours .ch-day-booking.gcal-calendar-event .booking-service-name span,
+    .calendar-week-agent-w .calendar-hours .ch-day-booking.gcal-calendar-event .booking-service-name img,
+    .calendar-week-agent-w .calendar-hours .ch-day-booking.gcal-calendar-event .booking-service-name span {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 16px; }
+    .calendar-daily-agent-w .calendar-hours .ch-day-booking.gcal-calendar-event .booking-service-name img,
+    .calendar-week-agent-w .calendar-hours .ch-day-booking.gcal-calendar-event .booking-service-name img {
+      width: 14px;
+      height: 14px; }
+
+.gcal-event-booking-block {
+  background-color: #fff !important;
+  background-image: linear-gradient(135deg, #ffffff 25%, #f8f8fb 25%, #f8f8fb 50%, #ffffff 50%, #ffffff 75%, #f8f8fb 75%, #f8f8fb 100%);
+  background-size: 40px 40px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), inset 0px 0px 0px 1px #2d54de !important; }
+  .gcal-event-booking-block img {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    display: block;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%); }

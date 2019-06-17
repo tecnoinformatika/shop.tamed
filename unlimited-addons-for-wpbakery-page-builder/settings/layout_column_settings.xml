@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<fields>
+			<fieldset name="basic" label="Basic">
+				
+				<field name="padding_top" 
+					type="text"
+					default=""
+					label="Column Padding Top"
+					unit="px"
+					placeholder="0"
+					description="The padding top of the column">
+				</field>
+				
+				<field name="padding_bottom" 
+					type="text"
+					default=""
+					label="Column Padding Bottom"
+					placeholder="0"
+					unit="px"
+					description="The padding bottom of the column">
+				</field>
+
+				<field name="padding_left" 
+					type="text"
+					default=""
+					label="Column Padding Left"
+					unit="px"
+					description="The padding left of the column">
+				</field>
+				
+				<field name="padding_right" 
+					type="text"
+					default=""
+					label="Column Padding Right"
+					unit="px"
+					description="The padding right of the column">
+				</field>
+				
+				<field name="col_space_between_addons" 
+					type="text"
+					default=""
+					label="Space Between Addons"
+					unit="px"
+					description="The vertical space between addons of the column">
+				</field>
+				
+			</fieldset>
+			
+			<fieldset name="background" label="Background" loadfrom="background"></fieldset>						
+			
+			<fieldset name="tablet" label="Tablet">
+			
+				<field name="padding_top_tablet" 
+					type="text"
+					default=""
+					label="Column Tablet Padding Top"
+					unit="px"
+					placeholder="0"
+					description="The padding top of the column in tablet screen size (768px and less)">
+				</field>
+				
+				<field name="padding_bottom_tablet" 
+					type="text"
+					default=""
+					label="Column Tablet Padding Bottom"
+					unit="px"
+					placeholder="0"
+					description="The padding bottom of the column in tablet screen size (768px and less)">
+				</field>
+
+				<field name="padding_left_tablet" 
+					type="text"
+					default=""
+					label="Column Tablet Padding Left"
+					unit="px"
+					placeholder="0"
+					description="The padding left of the column in tablet screen size (768px and less)">
+				</field>
+				
+				<field name="padding_right_tablet" 
+					type="text"
+					default=""
+					label="Column Tablet Padding Right"
+					unit="px"
+					placeholder="0"
+					description="The padding right of the column in tablet screen size (768px and less)">
+				</field>
+				
+				<field name="col_space_between_addons_tablet" 
+					type="text"
+					default=""
+					label="Space Between Addons Tablet"
+					unit="px"
+					description="The vertical space between addons of the column in tablet screen size (768px and less)">
+				</field>
+				
+				<field name="col_css_tablet" 
+					type="textarea"
+					default=""
+					label="Column Tablet Add Css"
+					description="Any css you want to add to column div in tablet screen size">
+				</field>
+				
+			</fieldset>
+			
+			<fieldset name="mobile" label="Mobile">
+			
+				<field name="padding_top_mobile" 
+					type="text"
+					default=""
+					label="Column Mobile Padding Top"
+					unit="px"
+					placeholder="0"
+					description="The padding top of the column in mobile screen size (less then 480)">
+				</field>
+				
+				<field name="padding_bottom_mobile" 
+					type="text"
+					default=""
+					label="Column Mobile Padding Bottom"
+					unit="px"
+					placeholder="0"
+					description="The padding bottom of the column in mobile screen size (less then 480)">
+				</field>
+
+				<field name="padding_left_mobile" 
+					type="text"
+					default=""
+					label="Column Mobile Padding Left"
+					unit="px"
+					placeholder="0"
+					description="The padding left of the column in mobile screen size (less then 480)">
+				</field>
+				
+				<field name="padding_right_mobile" 
+					type="text"
+					default=""
+					label="Column Mobile Padding Right"
+					unit="px"
+					placeholder="0"
+					description="The padding right of the column in mobile screen size (less then 480)">
+				</field>
+				
+				<field name="col_space_between_addons_mobile" 
+					type="text"
+					default=""
+					label="Space Between Addons Mobile"
+					unit="px"
+					description="The vertical space between addons of the column in mobile screen size (less then 480)">
+				</field>
+				
+				<field name="col_css_mobile" 
+					type="textarea"
+					default=""
+					label="Column Mobile Add Css"
+					description="Any css you want to add to column div in mobile screen size">
+				</field>
+				
+			</fieldset>
+			
+			
+			<fieldset name="advanced_settings" label="Advanced">
+			
+				<field name="col_class" 
+					type="text"
+					default=""
+					label="Column Css Class"
+					class="alias"
+					description="additional css class of the column">
+				</field>
+							
+				<field name="col_css" 
+					type="textarea"
+					default=""
+					label="Column Add Css"
+					description="Any css you want to add to column div">
+				</field>
+				
+			</fieldset>
+			
+			<fieldset name="animation" label="Animation" loadfrom="animation"></fieldset>
+			
+	</fields>

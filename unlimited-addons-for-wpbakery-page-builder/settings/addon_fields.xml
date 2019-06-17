@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<fields>
+			<fieldset name="general" label="General Settings">
+				
+				<field name="description" 
+					   type="textarea" 
+					   default="" 
+					   label="Description" 
+					   style="height:80px;"
+					   description="">
+				</field>
+				
+				<field name="link_resource"
+					   type="text"
+					   default="" 
+					   class="unite-input-link"
+					   label="Link" 
+					   description="Link to web resource that the addon taken from (if exists)">
+				</field>
+
+				<field name="show_small_icon" 
+					type="boolean"
+					default="true" 
+					label="Show Small Icon"
+					description="Show small addon icon in addons browser: icon_addon.png in assets folder">	
+				</field>
+				
+				<field name="text_preview"
+					type="statictext"
+					label="Preview Tooltip &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;span class='description'&gt;For the preview tooltip put preview_addon.jpg/png/gif in the assets folder&lt;/span&gt;">
+				</field>
+				<field type="hr"></field>
+				
+				<field name="preview_size" 
+					type="list"
+					default="full" 
+					label="Preview Size"
+					description="The way how the addon will be shown on internal preview">
+						<option value="full" text="Full Size"></option>
+						<option value="column" text="Column Size"></option>
+						<option value="custom" text="Custom Size"></option>
+				</field>
+					
+				<field name="preview_custom_width" 
+					type="text"
+					default="" 
+					unit="px"
+					label="Preview Custom Width"
+					description="">
+				</field>
+				
+				<field type="control" 
+					parent="preview_size"
+					ctype="show" 
+					child="preview_custom_width"
+					value="custom"
+				/>
+				
+				<field name="preview_bgcol" 
+					type="color"
+					default="#ffffff" 
+					label="Preview Background Color"
+					description="">  
+				</field>
+				
+			</fieldset>
+			
+			
+		</fields>

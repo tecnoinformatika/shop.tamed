@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<fields>
+			<fieldset name="basic" label="Basic">
+				
+				<field name="padding_top" 
+					type="text"
+					default=""
+					label="Addon Container Padding Top"
+					unit="px"
+					placeholder="0"
+					description="The padding top of the addon">
+				</field>
+				
+				<field name="padding_bottom" 
+					type="text"
+					label="Addon Container Padding Bottom"
+					unit="px"
+					placeholder="0"
+					description="The padding bottom of the addon">
+				</field>
+				
+				<field name="padding_left" 
+					type="text"
+					default=""
+					label="Addon Container Padding Left"
+					unit="px"
+					placeholder="0"
+					description="The padding left of the addon container">
+				</field>
+				
+				<field name="padding_right" 
+					type="text"
+					default=""
+					label="Addon Container Padding Right"
+					unit="px"
+					placeholder="0"
+					description="The padding right of the addon container">
+				</field>
+				
+				<field name="text_align" 
+					type="list"
+					default=""
+					label="Addon Container Text Align"
+					description="The text align of the addon container, it influence on some of the addons">
+					
+						<option value="" text="[Default]"></option>
+						<option value="left" text="Left"></option>
+						<option value="center" text="Center"></option>
+						<option value="right" text="Right"></option>
+						
+				</field>
+				
+			</fieldset>
+			
+			<fieldset name="background" label="Background" loadfrom="background"></fieldset>						
+
+			<fieldset name="tablet" label="Tablet">
+			
+				<field name="padding_top_tablet" 
+					type="text"
+					default=""
+					label="Addon Container Tablet Padding Top"
+					unit="px"
+					placeholder="0"
+					description="The padding top of the addon container in tablet page size (768px and less)">
+				</field>
+				
+				<field name="padding_bottom_tablet" 
+					type="text"
+					default=""
+					label="Addon Container Tablet Padding Bottom"
+					unit="px"
+					placeholder="0"
+					description="The padding bottom of the addon container in tablet page size (768px and less)">
+				</field>
+				
+				<field name="padding_left_tablet" 
+					type="text"
+					default=""
+					label="Addon Container Tablet Padding Left"
+					unit="px"
+					placeholder="0"
+					description="The padding left of the addon container in tablet page size (768px and less)">
+				</field>
+				
+				<field name="padding_right_tablet" 
+					type="text"
+					default=""
+					label="Addon Container Tablet Padding Right"
+					unit="px"
+					placeholder="0"
+					description="The padding right of the addon container in tablet page size (768px and less)">
+				</field>
+				
+				<field name="addon_css_tablet" 
+					type="textarea"
+					default=""
+					label="Addon Container Tablet Add Css"
+					description="Any css you want to add to addon container div in tablet page size (768px and less)">
+				</field>
+			
+			</fieldset>
+			
+			<fieldset name="mobile" label="Mobile">
+			
+				<field name="padding_top_mobile" 
+					type="text"
+					default=""
+					label="Addon Container Mobile Padding Top"
+					unit="px"
+					placeholder="0"
+					description="The padding top of the addon container in mobile page size (less then 480)">
+				</field>
+				
+				<field name="padding_bottom_mobile" 
+					type="text"
+					default=""
+					label="Addon Container Mobile Padding Bottom"
+					unit="px"
+					placeholder="0"
+					description="The padding bottom of the addon container in mobile page size (less then 480)">
+				</field>
+				
+				<field name="padding_left_mobile" 
+					type="text"
+					default=""
+					label="Addon Container Mobile Padding Left"
+					unit="px"
+					placeholder="0"
+					description="The padding left of the addon container in mobile page size (less then 480)">
+				</field>
+				
+				<field name="padding_right_mobile" 
+					type="text"
+					default=""
+					label="Addon Container Mobile Padding Right"
+					unit="px"
+					placeholder="0"
+					description="The padding right of the addon container in mobile page size (less then 480)">
+				</field>
+				
+				<field name="addon_css_mobile" 
+					type="textarea"
+					default=""
+					label="Addon Container Mobile Add Css"
+					description="Any css you want to add to addon container div in mobile page size (less then 480)">
+				</field>
+			
+			</fieldset>						
+			
+			<fieldset name="advanced_settings" label="Advanced">
+				
+				<field name="addon_class" 
+					type="text"
+					default=""
+					label="Addon Container Css Class"
+					class="alias"
+					description="additional css class of the container">
+				</field>
+									
+				<field name="addon_css" 
+					type="textarea"
+					default=""
+					label="Addon Container Add Css"
+					description="Any css you want to add to addon container div">
+				</field>
+				
+			</fieldset>
+			
+			<fieldset name="animation" label="Animation" loadfrom="animation"></fieldset>
+					
+	</fields>

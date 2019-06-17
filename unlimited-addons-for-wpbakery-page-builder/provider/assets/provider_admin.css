@@ -1,0 +1,208 @@
+
+.______________GENERAL_LINKS____________{}
+	
+a[href="admin.php?page=unitecreator_gounlimited"]{
+	color:#F04C40 !important;
+}
+
+a[href="admin.php?page=unitecreator_gounlimited"]:hover{
+	color:#F2665C !important;
+}
+
+a.uc-link-gounlimited{
+	color:#128F0F !important;
+	font-weight:bold;
+}
+
+a.uc-link-gounlimited:hover{
+	color:#1BD317 !important;
+}
+
+.______________VC_DIALOG_TOOLTIPS_AND_THUMBS____________{}
+
+.uc-vcaddon-preview-wrapper{
+	width:250px;
+	height:150px;
+	background-color:#ffffff;
+	border:1px solid #E5E1E1;
+	position:absolute;
+	background-position:center center;
+	background-repear:no-repeat;
+	background-size:cover;
+	z-index:999999;
+}
+
+/* regular view */
+
+.uc-vc-dialog-thumbs .wpb-elements-list.vc_filter-all .vc_shortcode-link.uc-addon_nav{
+	background-image:none !important;
+}
+
+.uc-vc-dialog-thumbs .wpb-elements-list.vc_filter-all .vc_shortcode-link.uc-addon_nav div{
+	display:none;
+}
+
+/* thumb view */
+
+.uc-vc-dialog-thumbs .wpb-elements-list:not(.vc_filter-all) .wpb-layout-element-button.uc-addon_o{
+	height:178px;
+	width:200px;
+	margin-left:10px;
+	padding:0px !important;
+	box-sizing:border-box;
+}
+
+.uc-vc-dialog-thumbs .wpb-elements-list:not(.vc_filter-all) .wpb-layout-element-button.uc-addon_o:first-item{
+	margin-left:0px;
+}
+
+.uc-vc-dialog-thumbs .wpb-elements-list:not(.vc_filter-all) .vc_shortcode-link.uc-addon_nav{
+    padding:0px 0px 0px 0px!important;
+    vertical-align:baseline !important;
+    height:178px;
+    width:200px;
+}
+
+.uc-vc-dialog-thumbs .wpb-elements-list:not(.vc_filter-all) .vc_shortcode-link.uc-addon_nav:hover{
+	background-color:#d8f4d6;
+}
+
+
+.uc-vc-dialog-thumbs .wpb-elements-list:not(.vc_filter-all) .vc_shortcode-link.uc-addon_nav div{
+	background-color: #ffffff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+	height: 135px;
+    margin: 10px auto 0px;
+    width: 180px;
+    margin-bottom:10px;
+}
+
+.uc-vc-dialog-thumbs .wpb-elements-list:not(.vc_filter-all) .vc_shortcode-link.uc-addon_nav span{
+	display:block;
+	box-sizing: content-box;
+	height: 20px;
+	color: #777777 !important;
+	text-align: center;
+	overflow: hidden;
+	margin: 7px auto 0;
+	white-space:nowrap;
+}
+
+.uc-vc-dialog-thumbs .wpb-elements-list:not(.vc_filter-all) .vc_shortcode-link.uc-addon_nav i{
+	display:none;
+}
+
+.uc-vc-dialog-thumbs .wpb-elements-list:not(.vc_filter-all) .vc_shortcode-link.uc-addon_nav div{
+	
+}
+
+
+
+.______________VC_DIALOG____________{}
+
+.vc_wrapper-param-type-uc_items .wpb_element_label,
+.vc_wrapper-param-type-uc_fonts .wpb_element_label{
+	display:none !important;
+	min-height:0px !important;
+	height:0px !important;
+}
+
+.vc_wrapper-param-type-uc_fonts .uc-addon-config-fonts h2{
+	margin-top:0px !important;
+	padding-top:0px !important;
+}
+
+.uc-view-addons-bar{
+	text-align:right;
+	padding-bottom:20px;
+	padding-right:100px;
+}
+
+.uc-button-activate{
+	
+    border-radius: 100px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+    color: #ffffff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    margin: 24px auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 125px;
+    background-color:#ff35a2;
+    text-decoration:none;
+}
+
+.uc-button-activate:hover{
+    color: #ffffff;
+    background-color:#f40284;
+}
+
+.______________GENERAL____________{}
+
+.unite-div-debug{
+	padding-left:180px;
+}
+
+.unite-view-wrapper{
+	margin-top:15px;
+}
+
+.uc-update-plugin-wrapper{
+	text-align:right;
+	padding-top:10px;
+}
+
+.______________DIALOG_IMAGE_SELECT____________{}
+
+.uc-dialog-image-select-inner{
+	height:350px;
+	overflow:auto;
+}
+
+.uc-dialog-image-select-bottom{
+	text-align:center;
+	margin-top:10px;
+}
+
+#uc_dialog_image_select_button{
+	margin-top:15px;
+	margin-bottom:10px;
+	font-size:16px;
+	font-weight:bold;
+	height:34px;
+	line-height:35px;
+	padding-left:12px;
+	padding-right:12px;
+}
+
+.______________GRID_BUILDER____________{}
+
+.uc-grid-builder-wrapper{
+	margin-right:25px;
+	margin-left:5px;
+}
+
+.______________LAYOUTS_LIST____________{}
+
+.wrap h1 .uc-button-import{
+	margin-left:10px;
+}
+
+.______________LAYOUTS_IMPORT_METABOX____________{}
+
+.uc-metabox-import-layout{
+	padding-top:10px;
+	height:40px;
+}
+
+.______________EDITOR_SETTING____________{}
+
+.unite-editor-setting-wrapper.unite-editor-wp{
+	min-width:500px;
+}

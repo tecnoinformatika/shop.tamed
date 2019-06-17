@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+	<fields>
+			<fieldset name="vc" label="Addons for Visual Composer">
+				
+				<field name="vc_enable" 
+					type="boolean"
+					default="true"
+					label="Enable Addons for Visual Composer"
+					description="If disabled, the addon library addons will not appear for Visual Composer">	
+				</field>
+				
+				<field type="bulk_control_start" 
+					parent="vc_enable"
+					ctype="show" 
+					value="true"
+				/>
+				
+					<field name="vc_group_cats" 
+						type="boolean"
+						default="true" 
+						label="Group Addons By Categories"
+						description="Put categories Visual Composer addons dialog. Otherwise show all the addons in one folder named in the next setting">	
+					</field>
+					
+					<field name="vc_folder" 
+						type="text"
+						default="Unlimited Addons" 
+						label="Visual Composer Folder"
+						description="The name of the folder in visual composer addon selector">  
+					</field>
+
+					<field name="vc_put_import_metabox" 
+						type="boolean"
+						default="true" 
+						label="Put Layout Import Metabox"
+						description="Put layout import metabox in posts or pages where visual composer is active">	
+					</field>
+					
+					<field name="vc_post_types" 
+						type="list"
+						default="vc" 
+						label="Include in Post Types"
+						description="Choose if the addon library will be included only on Visual Composer enabled pages, or in all post/page views. The third option includes the script in all admin pages">	
+							<option value="vc" text="Where Visual Composer Enabled"></option>
+							<option value="all" text="In All Post Pages"></option>
+							<option value="all_admin" text="In All Admin Pages"></option>
+					</field>
+					
+					<field name="vc_page_thumbs_type" 
+						type="list"
+						default="thumb" 
+						label="Addons Select Dialog Presentation"
+						description="Select presentation type of the addons in visual composer select addon dialog">	
+							<option value="thumb" text="Thumbnail"></option>
+							<option value="tooltip" text="Tooltip"></option>
+							<option value="none" text="None"></option>
+					</field>
+					
+					<field name="vc_hr2" 
+						   type="hr">
+					</field>	
+					
+					<field name="vc_check_memory" 
+						type="boolean"
+						default="true"
+						label="Protect from memory overuse"
+						description="Check the memory usage when register addons, if not enought memory, skip registering addons">	
+					</field>
+					
+					<field name="vc_memory_reserve" 
+						type="text"
+						default="32" 
+						unit="MB"
+						label="Memory Left Limit"
+						description="Choose the memory for limiting the addons register. For example, if set to 30MB and you have 128MB memory limit, then the addons stops registering when reach to 98MB">
+					</field>
+
+											
+				<field type="bulk_control_end"/>
+				
+			</fieldset>
+						
+	</fields>

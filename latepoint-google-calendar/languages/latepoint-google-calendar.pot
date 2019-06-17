@@ -1,0 +1,319 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: LatePoint Google Calendar Addon\n"
+"POT-Creation-Date: 2019-05-04 15:17-0700\n"
+"PO-Revision-Date: 2019-05-04 15:17-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: latepoint-google-calendar.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: latepoint-google-calendar.php:96
+msgid "Google Calendar"
+msgstr ""
+
+#: latepoint-google-calendar.php:282
+msgid "Google Calendar Setup"
+msgstr ""
+
+#: latepoint-google-calendar.php:289
+msgid "Google Calendar is Connected"
+msgstr ""
+
+#: latepoint-google-calendar.php:294
+msgid "Open Event Manager"
+msgstr ""
+
+#: latepoint-google-calendar.php:297
+msgid ""
+"Are you sure you want to disconnect Google Calendar? All events imported "
+"from Google Calendar will be removed."
+msgstr ""
+
+#: latepoint-google-calendar.php:302
+msgid "Disconnect"
+msgstr ""
+
+#: latepoint-google-calendar.php:309
+msgid "Google Calendar is not Connected"
+msgstr ""
+
+#: latepoint-google-calendar.php:315
+msgid "Connect"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:18
+#: lib/controllers/google_calendar_controller.php:19
+msgid "Agents"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:32
+msgid "Google Calendar Connected"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:61
+msgid "Google Calendar Disconnected"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:71
+#: lib/controllers/google_calendar_controller.php:74
+#: lib/controllers/google_calendar_controller.php:87
+#: lib/controllers/google_calendar_controller.php:90
+msgid "Booking #"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:181
+msgid "Event Unsynced Successfully"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:184
+msgid "Event Unsync Failed"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:198
+msgid "Event Synced Successfully"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:201
+msgid "Event Sync Failed"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:214
+msgid "Auto-sync with Google Calendar Enabled"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:228
+msgid "Token Refreshed"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:241
+msgid "Auto-sync Disabled"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:250
+#: lib/controllers/google_calendar_controller.php:278
+msgid "Bookings in LatePoint"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:251
+#: lib/controllers/google_calendar_controller.php:279
+msgid "Google Calendar Events"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:253
+msgid "Load Google Calendar Events"
+msgstr ""
+
+#: lib/controllers/google_calendar_controller.php:282
+msgid "Sync upcoming bookings"
+msgstr ""
+
+#: lib/helpers/google_calendar_helper.php:85
+msgid "Mon"
+msgstr ""
+
+#: lib/helpers/google_calendar_helper.php:85
+msgid "Tue"
+msgstr ""
+
+#: lib/helpers/google_calendar_helper.php:85
+msgid "Wed"
+msgstr ""
+
+#: lib/helpers/google_calendar_helper.php:85
+msgid "Thu"
+msgstr ""
+
+#: lib/helpers/google_calendar_helper.php:85
+msgid "Fri"
+msgstr ""
+
+#: lib/helpers/google_calendar_helper.php:85
+msgid "Sat"
+msgstr ""
+
+#: lib/helpers/google_calendar_helper.php:85
+msgid "Sun"
+msgstr ""
+
+#: lib/helpers/google_calendar_helper.php:343
+msgid "Phone: "
+msgstr ""
+
+#: lib/views/google_calendar/list_bookings_for_sync.php:5
+#: lib/views/google_calendar/load_events_for_sync.php:233
+msgid " of "
+msgstr ""
+
+#: lib/views/google_calendar/list_bookings_for_sync.php:6
+msgid "Bookings Synced"
+msgstr ""
+
+#: lib/views/google_calendar/list_bookings_for_sync.php:7
+#: lib/views/google_calendar/list_bookings_for_sync.php:9
+msgid "Sync All Bookings to Google"
+msgstr ""
+
+#: lib/views/google_calendar/list_bookings_for_sync.php:7
+#: lib/views/google_calendar/load_events_for_sync.php:235
+msgid "Stop Syncing Now"
+msgstr ""
+
+#: lib/views/google_calendar/list_bookings_for_sync.php:11
+msgid ""
+"Are you sure you want to remove all synced bookings from Google Calendar? "
+"They will remain in LatePoint, but will be removed from google calendar."
+msgstr ""
+
+#: lib/views/google_calendar/list_bookings_for_sync.php:11
+msgid "Remove Bookings from Google Calendar"
+msgstr ""
+
+#: lib/views/google_calendar/list_bookings_for_sync.php:11
+msgid "Stop Removing"
+msgstr ""
+
+#: lib/views/google_calendar/list_bookings_for_sync.php:13
+msgid "Remove Bookings from Google"
+msgstr ""
+
+#: lib/views/google_calendar/list_bookings_for_sync.php:48
+msgid "Edit Booking"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:9
+msgid "Google Calendar Auto-Sync is Enabled"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:15
+#, php-format
+msgid "Token Expires in %d days"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:18
+msgid "Refresh Token"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:22
+msgid "Disable Auto-Sync"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:28
+msgid "Auto-Sync from Google Calendar is disabled"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:33
+msgid "Enable Auto-Sync"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:124
+msgid "Recurring Events"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:139
+msgid " years"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:140
+#: lib/views/google_calendar/load_events_for_sync.php:162
+#: lib/views/google_calendar/load_events_for_sync.php:166
+#: lib/views/google_calendar/load_events_for_sync.php:170
+msgid "Every"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:140
+#: lib/views/google_calendar/load_events_for_sync.php:162
+#: lib/views/google_calendar/load_events_for_sync.php:166
+msgid "on"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:143
+msgid " months"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:144
+msgid "day"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:147
+msgid "last"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:150
+msgid "first"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:153
+msgid "second"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:156
+msgid "third"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:159
+msgid "fourth"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:165
+msgid " weeks"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:169
+msgid " days"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:170
+msgid "starting"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:208
+msgid "Not in Google Calendar anymore"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:211
+msgid "Not Found"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:234
+msgid "Events Synced"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:235
+#: lib/views/google_calendar/load_events_for_sync.php:237
+msgid "Sync All Events Now"
+msgstr ""
+
+#: lib/views/google_calendar/load_events_for_sync.php:248
+msgid "Google Calendar is Not Connected to this agent"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "LatePoint Google Calendar Addon"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://latepoint.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "LatePoint addon for google calendar integration"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "LatePoint"
+msgstr ""
